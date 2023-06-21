@@ -1,0 +1,146 @@
+.products {
+   margin-top: 5rem;
+ 
+ }
+ 
+ .products__menu .cboxes h5 {
+   font-size: 2rem;
+   line-height: 2.8rem;
+   font-weight: 600;
+ }
+ 
+ .form-group {
+   display: flex;
+   align-items: center;
+   margin-top: 2.6rem;
+   margin-bottom: 1.5rem;
+
+ }
+ 
+ .form-group input {
+   height: initial;
+   width: initial;
+   margin-bottom: 0;
+   padding: 0;
+   accent-color: red;
+ }
+ .input__title {
+  color: #B8926A;
+ }
+ .form-group label {
+   display: flex;
+   align-items: center;
+   position: relative;
+   cursor: pointer;
+   font-size: 1.6rem;
+   width: max-content;
+ 
+ }
+ 
+ .form-group label span {
+   display: block;
+   /* width: max-content; */
+   padding-left: 2.7rem;
+ }
+ 
+ .product__boxes {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   row-gap: 4.5rem;
+   column-gap: 2rem;
+ 
+ 
+ }
+ 
+ .product__box .like {
+   width: 4.6rem;
+   height: 3.8rem;
+   position: absolute;
+   top: 1.5rem;
+   right: 1.5rem;
+ }
+ 
+ .product__box .subtitle p {
+   margin-top: 2.2rem;
+   font-size: 2rem;
+   line-height: 2.8rem;
+   color: var(--color-black);
+ }
+ 
+ 
+ .product__box .subtitle span {
+   display: block;
+   margin-top: 2.2rem;
+   color: var(--color-sabalid);
+   font-size: 2rem;
+   line-height: 2.8rem;
+   font-weight: 700;
+ }
+ 
+ .product .line .half__line {
+   width: 50%;
+ }
+ 
+ 
+ .products__menu {
+   display: flex;
+   column-gap: 108px;
+ }
+ 
+ .inputs {
+   flex: 1;
+ }
+ 
+ .products__boxes {
+   flex: 3;
+   display: grid;
+   column-gap: 20px;
+   row-gap: 45px;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+ }
+ 
+ .product__content__menu {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #2D2D2B;
+   opacity: 0.8;
+   max-width: 563px;
+ }
+ 
+ .product__menu {
+   margin-top: 46px;
+ }
+ 
+ .product__box {
+   position: relative;
+ }
+ 
+ .section__head {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ 
+ 
+ 
+ .product .text__left h2 {
+   max-width: 498px;
+ }
+ 
+ .product .text__left .search__span {
+   max-width: 563px;
+ }
+ 
+ 
+ .product .right__box {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+   gap: 2rem;
+   margin-top: 44px;
+ }
+ 
+ 
+ 

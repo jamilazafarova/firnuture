@@ -1,0 +1,284 @@
+/* @media(max-width: 1380px) {
+   .container {
+     padding: 0 20px;
+   }
+ }
+
+
+@media(max-width: 1260px) {
+   .footer__heading {
+      margin-right: 120px;
+   }
+}
+
+@media(max-width: 1080px) {
+   .footer .footer__boxes {
+      row-gap: 20px;
+      grid-template-columns: repeat(3, 1fr);
+   }
+
+   .footer .author {
+      padding: 0;
+      margin: 0;
+   }
+
+   .footer__boxes .email {
+      text-align: left;
+   }
+}
+
+@media(max-width: 890px) {
+   .footer .footer__boxes {
+      row-gap: 20px;
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+   .footer__boxes .number {
+      text-align: left;
+   }
+}
+
+@media(max-width: 620px) {
+   .footer .footer__boxes {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .footer__heading {
+      margin-right: 0;
+   }
+}
+
+@media(max-width: 450px) {
+   .footer .footer__boxes {
+      align-items: flex-start !important;
+   }
+
+   .footer .footer__boxes .footer__heading {
+      font-size: 28.402px;
+      line-height: 32px;
+   }
+   .right__box {
+      grid-template-columns: 1fr !important;
+   }
+}
+
+ */
+
+
+ @media(max-width: 1380px) {
+   .container {
+     padding: 0 20px;
+   }
+ }
+
+ @media(max-width: 1300px) {
+   .heading__box:nth-child(4){
+      display: none;
+   }
+ }
+@media(max-width: 1260px) {
+   .footer__heading {
+      margin-right: 120px;
+   }
+}
+
+@media (max-width: 1200px){
+   .contact .contact__head {
+  gap:6rem
+
+   }
+}
+@media(max-width: 1080px) {
+   .footer .footer__boxes {
+      row-gap: 20px;
+      grid-template-columns: repeat(3, 1fr);
+   }
+
+   .footer .author {
+      padding: 0;
+      margin: 0;
+   }
+
+   .footer__boxes .email {
+      text-align: left;
+   }
+}
+
+@media(max-width: 991px) {
+   .btn.sort{
+      display: none;
+   }
+   .statistictics__boxes {
+      gap: 60px !important;
+   }
+   .statistictics__boxes {
+      margin-top: 70px !important;
+   }
+   .contact .contact__head {
+      flex-direction: column;
+     }
+     .collection .section__head a{
+      display: none;
+     }
+
+    .inputs{
+      display: none;
+   }
+   .product .heading__product a{
+      display: none;
+   }
+   
+   .about .about__boxes{
+      display: block;
+      
+   }
+   .about .about__boxes .about__content{
+      margin-top: 3rem;
+   }
+   .about {
+      margin-top: 0;
+   }
+.nav{
+   display: none !important;
+}
+.header__menu{
+   display: none !important;
+}
+.sr, .hamburger {
+   display: block;
+}
+.cart, .user {
+   display: none;
+}
+.header__all {
+   margin-bottom: 50px;
+}
+.text__left h2 {
+   font-size: 24px;
+   line-height: 32px;;
+}
+.search__span {
+   margin-top: 30px;
+}
+.header__img {
+   position: static !important;
+}
+.header__body__wrapper {
+   display: flex;
+   flex-direction: column;
+   row-gap: 40px;
+}
+.header__img {
+   width: 100% !important;
+}
+.header__img__blur {
+   display: none;
+}
+.header__desc h1 {
+   font-size: 32px !important;
+   line-height: 36px !important;
+}
+.header__desc{
+   padding-top: 0 !important;
+}
+
+.about{
+   display: flex;
+   flex-direction: column;
+}
+
+.about__statistics .statistictics__boxes {
+ flex-direction: column;
+ margin: 0 auto;
+ width: max-content;
+
+}
+}
+
+@media(max-width: 1300px) {
+   .heading__box:nth-child(3){
+      display: none;
+   }
+ }
+
+
+
+@media(max-width: 890px) {
+   .footer .footer__boxes {
+      row-gap: 20px;
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+   .footer__boxes .number {
+      text-align: left;
+   }
+   .header__body {
+      margin-bottom: 70px !important;
+   }
+}
+@media(max-width: 650px) {
+   .heading__box:nth-child(2){
+      display: none;
+   }
+}
+@media(max-width: 620px) {
+   .footer .footer__boxes {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .footer__heading {
+      margin-right: 0;
+   }
+}
+
+@media(max-width: 450px) {
+   .discount__sec__wrapper h2 {
+      font-size: 24px;
+      line-height: 32px;
+      text-align: center;
+   }
+   .heading__product h2 {
+      font-size: 2.4rem;
+   }
+   .about__content .btn {
+      width: 100%;
+   }
+   .collection{
+      width: 38rem;
+   }
+   .collection h2{
+      font-size: 4rem;
+   }
+   .collection .section__head{
+      gap: 20px;
+   }
+   .collection .section__head a{
+      display: none;
+   }
+
+   .product .heading__product a{
+      display: none;
+   }
+   .discount__sec__wrapper  a {
+      width: 100%;
+   }
+
+   
+   .footer .footer__boxes {
+      align-items: flex-start !important;
+   }
+
+   .footer .footer__boxes .footer__heading {
+      font-size: 28.402px;
+      line-height: 32px;
+   }
+   .right__box {
+      grid-template-columns: 1fr !important;
+   }
+}
+
+

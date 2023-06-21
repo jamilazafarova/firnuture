@@ -1,0 +1,13 @@
+.product .right__box .right__boxes {
+   position: relative;
+ 
+ 
+ }
+ 
+ .product .right__box .right__boxes img {
+   width: 100%;
+ }
+ 
+ .product .right__box .right__boxes .blur {
+   position: absolute;
+ }
